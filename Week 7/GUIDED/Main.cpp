@@ -1,10 +1,10 @@
 #include "stack.h" // mengimport header file stack.h
+#include "stack.cpp"
 #include <iostream>
 
 using namespace std;
 
 int main() {
-    cout << "Hello World!" << endl;
     Stack S; // deklarasi stack S bertipe Stack
     CreateStack(S); // inisialisasi stack S menjadi stack kosong
 
@@ -23,5 +23,8 @@ int main() {
     cout << " Balik Stack: " << endl;
     balikStack(S); // membalik urutan elemen dalam stack S
 
-    return 0; // mengakhiri program
+    cout << "Stack setelah dibalik: " << endl;
+    printInfo(S); // menampilkan isi stack setelah dibalik
+
+    return 0; // mengakhiri program
 }

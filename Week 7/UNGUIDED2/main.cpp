@@ -1,4 +1,5 @@
 #include "stack.h"
+#include "stack.cpp"
 #include <iostream>
 using namespace std;
 

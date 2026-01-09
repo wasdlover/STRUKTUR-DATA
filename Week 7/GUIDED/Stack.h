@@ -18,6 +18,6 @@ bool IsFull(Stack S);
 void Push(Stack &S, infotype X); // Menambahkan elemen ke stack
 infotype Pop(Stack &S); // Mengambil elemen teratas dari stack
 void printInfo(Stack S); 
-void balikStack(Stack &S); // Membalik urutan elemen dalam stack
+void balikStack(Stack &S); // Membalik urutan elemen dalam stack
 
 #endif
