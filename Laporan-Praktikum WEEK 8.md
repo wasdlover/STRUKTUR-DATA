@@ -152,7 +152,7 @@ int main() {
 
 
 #### Output:
- ![guided](<Screenshot 2025-11-20 234214.png>)
+ (<![GUIDED](image.png)>)
 
  #### Penjelasan
  Progranm ini mengimplementasikan Circular Queue dimana variabel yang digunakan adalah count untuk melacak jumlah elemen secara tepat.
@@ -289,7 +289,7 @@ int main() {
 }
 
 #### Output:
-![unguided1](<Screenshot 2025-11-20 231855.png>)
+![unguided 1](image-1.png)
 
 #### Penjelasan
 Program ini lambat dikarenakan semua elemen digeser oleh dequeue, dengan CreateQueue diubah menjadi -1 maka outputnya akan sesuai
@@ -417,7 +417,7 @@ int main() {
 }
 
 #### Output:
-![unguided2](<Screenshot 2025-11-20 233228.png>)
+![unguided 2](image-2.png)
 
 #### Penjelasan
 Program ini mengimplementasi linear queue dengan head and tail bergerak penambahan pada program ini sama seperti nomor satu
@@ -549,7 +549,7 @@ int main() {
 }
 
 #### Output:
-![unguided3](<Screenshot 2025-11-20 234120.png>)
+![unguided 3](image-3.png)
 
 #### Penjelasan
 Program unguided 3 ini mengimplemntasi Circular Queue dengan menggunakan variabel count, sama seperti pada soal guided karena ini adalah cara paling cepat
